@@ -51,8 +51,8 @@ public class Task2 {
             return "Такой квартиры не существует";
         }
 
-        entranceNumber = (flatNumber % flatInEntrance == 0) ?
-                (flatNumber / flatInEntrance) : (flatNumber / flatInEntrance) + 1;
+        entranceNumber = (flatNumber % flatInEntrance == 0)
+                ? (flatNumber / flatInEntrance) : (flatNumber / flatInEntrance) + 1;
 
         if (flatNumber % 4 == 0) {
             floorNumber = flatNumber / 4;
